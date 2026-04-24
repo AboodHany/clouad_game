@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Arena - Leaderboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell leaderboard-shell">
+    <header class="card leaderboard-header">
+      <div>
+        <p class="eyebrow">Results board</p>
+        <h1>Leaderboard</h1>
+        <p id="leaderboardMeta">Loading scores...</p>
+      </div>
+      <a class="secondary-link" href="game.html">Back to Game</a>
+    </header>
+
+    <section class="card leaderboard-card">
+      <ol id="leaderboardList" class="leaderboard-list"></ol>
+    </section>
+  </main>
+
+  <script type="module" src="leaderboard.js"></script>
+</body>
+</html>
