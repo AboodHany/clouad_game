@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Arena</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell home-shell">
+    <section class="hero card">
+      <p class="eyebrow">Local multiplayer prototype</p>
+      <h1>Quiz Arena</h1>
+      <p class="hero-copy">Create a room, share a code, and answer questions against friends on the same local backend.</p>
+    </section>
+
+    <section class="grid-two">
+      <article class="card form-card">
+        <h2>Create Game</h2>
+        <form id="createGameForm">
+          <label for="createUsername">Username</label>
+          <input id="createUsername" name="createUsername" type="text" placeholder="Enter your name" required />
+          <button type="submit">Create Game</button>
+        </form>
+      </article>
+
+      <article class="card form-card">
+        <h2>Join Game</h2>
+        <form id="joinGameForm">
+          <label for="gameCode">Game Code</label>
+          <input id="gameCode" name="gameCode" type="text" placeholder="AB12CD" maxlength="6" required />
+          <label for="joinUsername">Username</label>
+          <input id="joinUsername" name="joinUsername" type="text" placeholder="Enter your name" required />
+          <button type="submit">Join Game</button>
+        </form>
+      </article>
+    </section>
+
+    <section class="card info-card">
+      <h2>How it works</h2>
+      <ol>
+        <li>Create a game or join with a code.</li>
+        <li>Answer the question before the timer ends.</li>
+        <li>Check the leaderboard to see who is winning.</li>
+      </ol>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
