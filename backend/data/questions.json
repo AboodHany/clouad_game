@@ -1,0 +1,31 @@
+[
+  {
+    "id": "q1",
+    "question": "Which language is used for this backend?",
+    "options": ["Python", "Java", "Go", "Ruby"],
+    "correctAnswer": "Python"
+  },
+  {
+    "id": "q2",
+    "question": "What does HTTP stand for?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Transfer Text Program",
+      "Hyperlink Transfer Process",
+      "Home Tool Transfer Protocol"
+    ],
+    "correctAnswer": "HyperText Transfer Protocol"
+  },
+  {
+    "id": "q3",
+    "question": "Which data format is used for the fake database?",
+    "options": ["XML", "JSON", "CSV", "YAML"],
+    "correctAnswer": "JSON"
+  },
+  {
+    "id": "q4",
+    "question": "Which HTTP method is best for creating a new resource?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "correctAnswer": "POST"
+  }
+]
